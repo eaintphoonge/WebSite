@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registration</title>
+</head>
+<body bgcolor="mintcream"> 
+	<br>
+	<br>
+	<br>
+	<table style="background-color: lightgreen;" width="50%" align="center">
+		<tr style="height: 70px;">
+			<td style="border: double darkgreen; text-align: center; border-radius: 10px; background-color: mintcream;">
+			    <font size="300" color="green">Learner Registration Form</font>
+	    </tr>
+	    <tr>
+	    	<td style="padding-top: 30px; padding-left: 50px;">
+	    		<form>
+	    			<label for="name">Name:</label><br>
+	    			<input type="text" name="name" id="name" placeholder="Enter Full Name" size="
+	    			70%"><br><br>
+	    			<label for="fname">Father's Name:</label><br>
+	    			<input type="text" name="fname" size="70%"><br><br>
+	    			<label for="mname">Mother's Name:</label><br>
+	    			<input type="text" name="mname" size="70%"><br><br>
+	    			<label for="ph.no">Mobile Phone Number:</label><br>
+	    			<input type="tel" name="ph.no" size="70%" pattern="09[0-9]{9}" placeholder="09xxxxxxxxx"><br><br>
+	    			<label for="email">Email:</label><br>
+	    			<input type="email" name="email" id="email" placeholder="sample@example.com" size="70%"><br><br>
+	    			Gender:<br>
+	    			<input type="radio" name="rb" id="rb1">
+	    			<label for="rb1">Male</label>
+	    			<input type="radio" name="rb" id="rb2">
+	    			<label for="rb2">Female</label>
+	    			<input type="radio" name="rb" id="rb3">
+	    			<label for="rb3">Other</label><br><br>
+	    			<label for="date">Date of Birth:</label><br>
+	    			<input type="date" name="date" id="date"><br>
+	    			<br>
+	    			<label for="address">Address:</label><br>
+	    			<input type="text" name="address" id="address" placeholder="House, Street, Township, State/Division" size="70%"><br><br>
+	    			Blood Group:<br>
+	    			<select name="bg">
+	    				<option value="a">A</option>
+	    				<option value="b">B</option>
+	    				<option value="o">O</option>
+	    				<option value="other">Other</option>
+	    			</select><br><br>
+	    			Course:<br>
+	    			<input type="checkbox" name="cb1" id="cb1">
+	    			<label for="cb1">Beginner</label><br>
+	    			<input type="checkbox" name="cb2" id="cb2">
+	    			<label for="cb2">Intermediate</label><br>
+	    			<input type="checkbox" name="cb3" id="cb3">
+	    			<label for="cb3">Advance</label><br><br>
+	    			Bio Photo:<br>
+	    			<input type="file" name="bp" id="bp"><br><br>
+	    			<label for="dc">Desired Classmate</label><br>
+	    			<input type="number" name="dc" min="5" max="20" step="5" value="10"><br><br>
+	    			<input type="submit" name="rb" id="rb" value="Register">
+	    			<input type="reset" name="rs" id="rs" value="Reset">
+	    		</form> 
+	    	</td>
+	    </tr>
+    </table>    
+</body>
+</html>
